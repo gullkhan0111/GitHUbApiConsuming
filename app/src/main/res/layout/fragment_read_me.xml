@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp"
+    tools:context="com.example.haseeb.tabactivity.features.repositoryConttributors.ContributorsFragment">
+
+
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/contributpr_bar"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/contibutorsList"
+        android:layout_width="match_parent"
+        android:layout_marginTop="1dp"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</FrameLayout>

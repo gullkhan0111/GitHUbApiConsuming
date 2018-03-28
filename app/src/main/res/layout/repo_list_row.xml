@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1dp"
+    android:background="#2d3035">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2d3035"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/forked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:background="#0606c6"
+                android:text="Forked"
+                android:textColor="#fff"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:text="khan"
+                android:textColor="#fff"
+                android:textSize="17sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25sp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_action_watchers" />
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="3dp"
+                android:text="1"
+                android:textColor="#595b5d"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_action_fork" />
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="3dp"
+                android:text="1"
+                android:textColor="#595b5d"
+                android:textSize="15dp"
+
+                />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_action_watch" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="feb 8,2018 , 155 MB"
+                android:textColor="#595b5d" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="java script"
+                android:textColor="#e7ba5e" />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

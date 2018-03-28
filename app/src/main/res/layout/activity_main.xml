@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2d3035"
+    tools:context=".features.main.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find User in GitHub"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:layout_marginTop="100dp"
+        />
+
+    <EditText
+        android:id="@+id/activity_main_edittxt_SearcName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/activity_main_btnSearch"
+        android:layout_alignLeft="@+id/activity_main_btnSearch"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_alignStart="@+id/activity_main_btnSearch"
+        android:hint="search User" />
+
+    <Button
+        android:id="@+id/activity_main_btnSearch"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="search " />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/activity_main_btnSearch"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/gitlogo"
+        android:layout_height="100dp" />
+
+
+</RelativeLayout>

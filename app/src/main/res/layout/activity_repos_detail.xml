@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2d3035"
+
+    tools:context="com.example.haseeb.tabactivity.features.userRepository.ReposDetailActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/activity_detail_repo_fullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8sp"
+                android:layout_marginTop="5sp"
+                android:text="full name"
+                android:textColor="#fff"
+                android:textSize="15sp"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0"
+                    android:text="Mar 12,2108,"
+                    android:textColor="#bababa" />
+
+                <TextView
+                    android:id="@+id/size"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="364 KB,"
+                    android:textColor="#bababa" />
+
+                <TextView
+                    android:id="@+id/lang"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="javaScripts"
+                    android:textColor="#797927" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/watchers_icon"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_action_watchers" />
+
+                <ImageView
+                    android:layout_width="20sp"
+                    android:layout_height="20sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="12dp"
+                    android:src="@drawable/ic_action_fork" />
+
+                <ImageView
+
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/wiki" />
+
+                <ImageView
+
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_action_watchers" />
+
+                <ImageView
+                    android:layout_width="20sp"
+                    android:layout_height="20sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="12dp"
+                    android:src="@drawable/ic_action_fork" />
+
+                <ImageView
+
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/wiki" />
+
+                <ImageView
+                    android:layout_width="20sp"
+                    android:layout_height="20sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="12dp"
+                    android:src="@drawable/ic_action_fork" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/watchers_value"
+                    android:layout_width="20sp"
+                    android:layout_height="90dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="5dp"
+                    android:text="1"
+                    android:textColor="#fff"
+
+                    />
+
+                <TextView
+
+                    android:layout_width="40dp"
+                    android:layout_height="90sp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+                    android:text="WIKI"
+                    android:textColor="#fff" />
+
+                <TextView
+
+                    android:layout_width="40sp"
+                    android:layout_height="90dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+                    android:text="PIn"
+                    android:textColor="#fff"
+
+                    />
+
+                <TextView
+
+                    android:layout_width="20sp"
+                    android:layout_height="90sp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="5dp"
+                    android:text="1"
+                    android:textColor="#fff" />
+
+                <TextView
+
+                    android:layout_width="40dp"
+                    android:layout_height="90sp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+                    android:text="WIKI"
+                    android:textColor="#fff" />
+
+                <TextView
+
+                    android:layout_width="40sp"
+                    android:layout_height="90dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+                    android:text="PIn"
+                    android:textColor="#fff">
+
+                </TextView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#2d3035"
+        android:elevation="6dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:tabIndicatorColor="#1263b3"
+        app:tabSelectedTextColor="#0b61a3"
+        app:tabTextColor="#fff" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tab_layout"
+
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/repo_detail_owner_Profile_img"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:src="@drawable/gitlogo" />
+
+    <TextView
+        android:id="@+id/fork_value"
+        android:layout_width="20sp"
+        android:layout_height="90sp"
+        android:layout_above="@+id/pager"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginStart="49dp"
+        android:layout_toEndOf="@+id/repo_detail_owner_Profile_img"
+        android:layout_toRightOf="@+id/repo_detail_owner_Profile_img"
+        android:text="1"
+        android:textColor="#fff" />
+
+</RelativeLayout>
